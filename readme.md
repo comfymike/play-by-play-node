@@ -1,6 +1,6 @@
 To use, 
 
-Start all-server.js, player-server.js, team-server.js to run
+Start all-server.js, player-server.js, team-server.js
 
 forever start player-server.js
 // port 2000
