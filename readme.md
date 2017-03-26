@@ -1,6 +1,8 @@
-To use, 
+To use, start all-server.js, player-server.js, team-server.js
+Also run mongodb and redis
 
-Start all-server.js, player-server.js, team-server.js
+**commands: 
+
 
 forever start player-server.js
 // port 2000
@@ -8,15 +10,20 @@ forever start player-server.js
 forever start team-server.js
 // port 2001
 
-
-// to check running processes:
 forever list
-
+// to check running processes
 
 node all-server.js
 // port 2002
 
+mongod
+// start mongo
 
+mongo
+// start mongo cli
 
+redis-server
+// start redis
 
-
+redis-cli
+// start redis cli
